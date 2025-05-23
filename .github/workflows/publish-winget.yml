@@ -61,6 +61,6 @@ jobs:
           }
 
           # Submit the updated manifests to winget-pkgs repository
-          .\wingetcreate.exe submit $outputRelativePath `
-            --token "${{ secrets.WINGET_GITHUB_TOKEN }}" `
-            --prtitle "New version: $wingetPackageID version $packageVersion"
+          # .\wingetcreate.exe submit $outputRelativePath `
+          #   --token "${{ secrets.WINGET_GITHUB_TOKEN }}" `
+          #   --prtitle "New version: $wingetPackageID version $packageVersion"
